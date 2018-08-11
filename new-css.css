@@ -106,10 +106,10 @@ a {
     background-color: #5C8BC8;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 150px;
     width: 100%;
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0px;
     border-top: solid;
     border-color: darkgrey;
@@ -172,7 +172,7 @@ a {
 
   .project-2 {
       border-style: solid;
-      border-style: solid;
+      
       border-width: 5px;
       border-color: #5C8BC8;
       width: 150px;
@@ -183,30 +183,78 @@ a {
       right: 150px;
       float: right;
   }
+  .project-3 {
+    border-style: solid;
+      border-width: 5px;
+      border-color: #5C8BC8;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      position: relative;
+      left: -200px;
+      bottom: -30px;
+  }
+
+  .project-4 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #5C8BC8;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    right: -200px;
+    bottom: 230px;
+  }
 
   .button1 {
       width: 250px;
       position: relative;
       left: 155px;
-      top: -50px;
+    bottom: 600px;
       border-style: solid;
       border-width: 1px;
       border-color: #5C8BC8;
       height: 60px;
-      top: -100px;
+     
   }
 
   .button2 {
     width: 250px;
     position: relative;
     right: -301px;
-    top: -50px;
+    top: -600px;
+   
     border-style: solid;
     border-width: 1px;
     border-color: #5C8BC8;
     height: 60px;
-    top: -100px;
+    
   }
+
+  .button3 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5C8BC8;
+    height: 60px;
+    width: 255px;
+    position: relative;
+    bottom: 310px;
+    left: -355px;   
+  }
+
+  .button4 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5C8BC8;
+    height: 60px;
+    width: 255px;
+    position: relative;
+    bottom: 370px;
+    left: 555px;
+
+  }
+
 
   @media only screen and (max-width: 980px) {
     .topnav {
@@ -254,26 +302,100 @@ a {
 
     .project-1 {
         position: relative;
-        left: -170px;
+        left: -150px;
 
     }
 
     .project-2 {
         position: relative;
-        right: 20px;
+        right: 50px;
     }
 
+    .project-3 {
+        position: relative;
+        left: -150px;
+    }
+
+    .button3 {
+        position: relative;
+        left: 45px;
+        top: -370px;
+    }
+
+    .project-4 {
+        position: relative;
+        right: -150px;
+        top: -230px;
+    }
+    
+    .button4 {
+        position: relative;
+        left: 87px;
+    }
     .button1 {
         position: relative;
-        left: 30px;
+        left: 50px;
     }
 
     .button2 {
         position: relative;
-        right: -370px;
-        top: -160px;
-        width: 260px;
+        right: -90px;
+        top: -600px;
+        width: 255px;
     }
-        
 
 }
+
+@media only screen and (max-width: 768px) {
+    .topnav {
+        position: absolute;
+        right: 20px;
+    }
+
+    h1 {
+        width: 150px;
+       text-align: center;
+       position: relative;
+       left: -210px;
+    }
+    .container {
+        width: 730px;
+        position: relative;
+        left: 0px;
+    }
+    .project-2 {
+        position: relative;
+        right: 70px;
+    }
+
+    .project-4 {
+            position: relative;
+            right: -165px;
+    }
+
+    .button1 {
+        position: relative;
+        left: 90px;
+    }
+
+    .button2 {
+        position: relative;
+        left: 150px;
+    }
+    .button3 {
+        position: relative;
+        left: 90px;
+    }
+
+    .button4 {
+        position: relative;
+        left: 145px;
+    }
+
+    .form {
+        padding-left: 50px;
+        padding-right: 60px;
+    }
+
+}
+
