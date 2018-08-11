@@ -1,0 +1,471 @@
+
+body {
+    background-image: url("../assets/mekong-green.png");
+    color: #333333;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+  
+}
+
+h1 {
+    color:white; 
+    font-size: 28px;
+    padding: 20px;
+    background-color: #5C8BC8;
+    text-align: left;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    margin-right: 58%;
+    position: relative;
+    left: -195px;
+    
+
+}
+
+h2 {
+    color: #5C8BC8;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    width: 940px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-width:2px;
+    border-bottom:solid;
+    border-color: darkgrey;
+    padding-left: 20px;
+    
+    
+}
+
+
+.btn {
+    float: right;
+    padding: 2ch;
+    border: #eee;
+}
+
+.container {
+    width: 960px;
+    margin:0 auto;
+    border-width:2px;
+    border-style:solid;
+    border-color:darkgrey;
+   
+}
+
+p {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: left; 
+}
+
+.image {
+    float: left;
+    position: relative;
+    top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+
+}
+
+
+
+.topnav {
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 20px;
+    
+}
+
+a {
+    color: #5C8BC8;
+}
+.bio-image {
+    position: relative;
+    float: left;
+}
+
+.footer {
+    clear: both;
+    
+    background-color: #5C8BC8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    border-top: solid;
+    border-color: darkgrey;
+    border-width: 10px;
+    
+  }
+
+  form {
+      background-color: white; 
+      margin: 0 auto;
+      padding-left: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      width: 930px;
+  }
+
+  input {
+      width: 900px;
+      height: 20px;
+  }
+
+  .email {
+      
+  }
+  
+
+  textarea {
+      width: 900px;
+      height: 150px;
+  }
+
+  button {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:  #5C8BC8;
+      padding: 10px;
+      color: white;
+      font-size: 16px;
+
+  }
+
+  .projects {
+      margin: 0 auto;
+      background-color: white;
+      padding-bottom: 20px;
+     
+  }
+
+  .project-1 {
+      border-style: solid;
+      border-width: 5px;
+      border-color: #5C8BC8;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      position: relative;
+      left: -200px; 
+
+  }
+
+  .project-2 {
+      border-style: solid;
+      border-style: solid;
+      border-width: 5px;
+      border-color: #5C8BC8;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      position: relative;
+      top: -260px;
+      right: 150px;
+      float: right;
+  }
+
+  .button1 {
+      width: 250px;
+      position: relative;
+      left: 155px;
+      top: -50px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #5C8BC8;
+      height: 60px;
+      top: -100px;
+  }
+
+  .button2 {
+    width: 250px;
+    position: relative;
+    right: -301px;
+    top: -50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5C8BC8;
+    height: 60px;
+    top: -100px;
+  }
+/*media 980px*/
+@media only screen and (max-width: 980px) {
+	.topnav {
+    position: absolute;
+    right: 80px;
+    }
+    .container {
+        float: left;
+        /* margin-bottom: 500px;  this wont work*/
+        position: relative;
+        top: -50px;
+        max-width: 600px;
+        margin: 50px;
+        padding-right: 10px;
+    }
+    h1 {
+        margin-right: 500px;
+    }
+    }
+
+    h2 {
+        padding-right: 0;
+        margin: 0 auto;
+         width: 590px;
+    }
+    .footer {
+        
+        position: relative;
+    }
+    .myname {
+        margin-left: -45px;
+    }
+
+    .image{
+
+        padding-bottom: 20px;
+    }
+
+    .project-1 {
+        position: relative;
+        left: -150px;
+        height: 100px;
+        
+    }
+
+    .project-2 {
+        position: relative;
+        right: 10px;
+        top: -210px;
+        height: 100px;
+    }
+    .button1 {
+        position: relative;
+        left: 20px;
+        top: -60px;
+        width: 260px;
+    }
+    .button2 {
+        position: relative;
+        right: -330px;
+        top: -120px;
+        width: 260px;
+    }
+    input {
+        width: 550px;
+    }
+
+    textarea {
+        width: 550px;
+    }
+
+    button {
+        position: relative;
+        right: 560px;
+        bottom: -30px;
+    }
+  }
+
+  /*media for 768px*/
+  @media only screen and (max-width: 768px) {
+	.topnav {
+    position: absolute;
+    right: 30px;
+    }
+    .myname {
+        margin-left: 0px;
+    }
+
+    .container {
+        float: left;
+        position: relative;
+        top: -50px;
+        max-width: 720px;
+        margin-left: 15px;
+        margin-bottom: 500px; /*not working */
+    }
+
+    .image {
+        margin-left: 50px;
+    }
+
+ 
+    }
+    .project-1 {
+        position: relative;
+        left: -165px;
+        height: 100px;
+        width: 180px;
+    }
+
+    .project-2 {
+        position: relative;
+        right: 50px;
+        top: -210px;
+        height: 100px;
+        width: 180px;
+    }
+    .button1 {
+        position: relative;
+        left: 55px;
+        top: -60px;
+        width: 280px;
+    }
+    .button2 {
+        position: relative;
+        right: -380px;
+        top: -120px;
+        width: 290px;
+    }
+    input {
+        width: 550px;
+    }
+
+    textarea {
+        width: 550px;
+    }
+
+    button {
+        position: relative;
+        right: 560px;
+        bottom: -30px;
+    }
+    label {
+        margin-left: 20px;
+    }
+
+    input {
+        margin-left: 20px;
+        width: 610px;
+    }
+    textarea {
+        margin-left: 20px;
+        width: 610px;
+    }
+    .submit {
+        margin-left: -60px;
+    }
+  }
+
+  /*media 640px*/
+  @media only screen and (max-width: 640px) {
+	.topnav {
+    position: absolute;
+    top: 100px;
+    right: 230px;
+    
+    
+    }
+    .myname {
+        position: relative;
+        right: -320px;
+        width: 600px;
+
+    }
+    h1 {
+        width: 600px;
+        position: relative;
+        left: -500px;
+        padding-left: 300px;
+        
+    }
+
+    h2 {
+        width: 500px;
+        padding-left: 20px;
+        margin-right: 30px;
+        padding-right: 90px;
+        
+        border-bottom-style: solid;
+        
+    }
+    .image {
+        padding-left: 10px;
+    }
+
+    .container {
+        float: left;
+        position: relative;
+        top: -50px;
+        left: -40px;
+        max-width: 600px;
+        
+        
+        margin-bottom: 500px;
+    }
+
+    .project-1 {
+        position: relative;
+        left: -40px;
+        text-align: center;
+        height: 200px;
+        width: 405px;
+    }
+
+    .project-2 {
+        position: relative;
+        right: 40px;
+        bottom: 600px;  
+        top:100px;
+        height: 200px;
+        width: 405px;
+        
+    }
+    .button1 {
+        position: relative;
+        left: 60px;
+        top: -370px;
+        width: 510px;
+    }
+    .button2 {
+        position: relative;
+        right:-60px;
+        top: -20px;
+        width: 510px;
+    }
+
+    button {
+        position: relative;
+        right: 560px;
+        bottom: -30px;
+    }
+    label {
+        margin-left: 10px;
+    }
+
+    input {
+        margin-left: 10px;
+        width: 520px;
+        
+    }
+    textarea {
+        margin-left: 10px;
+        width: 520px;
+    }
+    .submit {
+        margin-left: 30px;
+    }
+    p {
+        margin-right: -10px;
+    }
+  }
+

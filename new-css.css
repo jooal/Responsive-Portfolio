@@ -1,0 +1,279 @@
+
+body {
+    background-image: url("./assets/mekong-green.png");
+    color: #333333;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    margin: 0 auto;
+    padding: 0px;
+  
+}
+
+h1{
+    color:white; 
+    font-size: 28px;
+    padding: 20px;
+    background-color: #5C8BC8;
+    text-align: left;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    margin-right: 58%;
+    position: relative;
+    left: -195px;
+    
+
+}
+
+h2 {
+    color: #5C8BC8;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-width:2px;
+    border-bottom:solid;
+    border-color: darkgrey;
+    padding-left: 500spx;
+ 
+}
+
+
+.btn {
+    float: right;
+    padding: 2ch;
+    border: #eee;
+}
+
+.container {
+    width: 960px;
+    margin:0 auto;
+    border-width:2px;
+    border-style:solid;
+    border-color:darkgrey;
+   
+}
+
+p {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: left; 
+    
+    
+}
+
+.image {
+    float: left;
+    position: relative;
+    top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+
+}
+
+
+
+.topnav {
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 20px;
+    
+}
+
+a {
+    color: #5C8BC8;
+}
+.bio-image {
+    position: relative;
+    float: left;
+}
+
+.footer {
+    clear: both;
+    
+    background-color: #5C8BC8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    border-top: solid;
+    border-color: darkgrey;
+    border-width: 10px;
+    
+  }
+
+  form {
+      background-color: white; 
+      margin: 0 auto;
+      padding-left: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      width: 930px;
+  }
+
+  input {
+      width: 900px;
+      height: 20px;
+  }
+
+  .email {
+      
+  }
+  
+
+  textarea {
+      width: 900px;
+      height: 150px;
+  }
+
+  button {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:  #5C8BC8;
+      padding: 10px;
+      color: white;
+      font-size: 16px;
+
+  }
+
+  .projects {
+      margin: 0 auto;
+      background-color: white;
+      padding-bottom: 20px;
+     
+  }
+
+  .project-1 {
+      border-style: solid;
+      border-width: 5px;
+      border-color: #5C8BC8;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      position: relative;
+      left: -200px; 
+
+  }
+
+  .project-2 {
+      border-style: solid;
+      border-style: solid;
+      border-width: 5px;
+      border-color: #5C8BC8;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      position: relative;
+      top: -260px;
+      right: 150px;
+      float: right;
+  }
+
+  .button1 {
+      width: 250px;
+      position: relative;
+      left: 155px;
+      top: -50px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #5C8BC8;
+      height: 60px;
+      top: -100px;
+  }
+
+  .button2 {
+    width: 250px;
+    position: relative;
+    right: -301px;
+    top: -50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5C8BC8;
+    height: 60px;
+    top: -100px;
+  }
+
+  @media only screen and (max-width: 980px) {
+    .topnav {
+        position: absolute;
+        right: 80px;
+        }
+     h1 {
+        margin-right: 500px;
+        position: relative;
+        left: -250px;
+    }
+    h2 {
+        position: relative;
+        padding-left: 50px;
+    }
+
+    .container {
+        width: 650px;
+        position: relative;
+        left: -120px;
+        
+    }
+    img {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    .footer {
+        position: relative;
+        margin-top: 500px;
+    }
+
+    .form {
+        width: 620px;
+    }
+
+    input {
+        width: 600px;
+    }
+    
+
+    textarea {
+        width: 600px;
+    }
+
+    .project-1 {
+        position: relative;
+        left: -170px;
+
+    }
+
+    .project-2 {
+        position: relative;
+        right: 20px;
+    }
+
+    .button1 {
+        position: relative;
+        left: 30px;
+    }
+
+    .button2 {
+        position: relative;
+        right: -370px;
+        top: -160px;
+        width: 260px;
+    }
+        
+
+}
