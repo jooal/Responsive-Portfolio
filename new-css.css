@@ -399,3 +399,87 @@ a {
 
 }
 
+@media only screen and (max-width: 640px){
+    .topnav {
+        position: absolute;
+        right: 200px;
+        top: 90px;
+    }
+    h1 {
+        width: 100%;
+    }
+    .container {
+        width: 550px;
+    }
+    .project-1 {
+        position: relative;
+        left: 0px;
+        width: 380px;
+
+    }
+    .project-2 {
+        position: relative;
+        top: 300px;
+        width: 380px;
+        top: 20px;
+        left: -30px;
+    }
+
+    .button2 {
+        width: 490px;
+        position: relative;
+        top: -380px;
+        left: 30px;
+    }
+
+
+    .button1 {
+        width: 490px;
+        position: relative;
+        left: 30px;
+    }
+
+    .project-3 {
+        position: relative;
+        bottom: -300px;
+        width: 380px;
+        left: 0px;
+        text-align: center;
+    }
+
+    .button3 {
+        width: 490px;
+        position: relative;
+        left: 30px;
+        top: -160px;
+    }
+
+    .project-4 {
+        position: relative;
+        top: 320px;
+        width: 380px;
+        right: 0px;
+
+        
+    }
+
+    .button4 {
+        width: 490px;
+        position: relative;
+        bottom: -60px;
+        left: 30px;
+    }
+
+    .form {
+        width: 440px;
+    }
+
+    input {
+        width: 450px;
+    }
+    textarea {
+        width: 450px;
+        height: 300px;
+    }
+}
+
